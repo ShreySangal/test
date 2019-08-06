@@ -11,4 +11,3 @@ c()
 {
 	echo "Hello from function c"
 }
-echo "Executing functions"
