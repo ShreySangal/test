@@ -6,11 +6,7 @@ node('master')
   }
   stage("Function A")
   {
-    sh label: '', script: '. ./script.sh'
-  }
-  stage("Function A")
-  {
-    echo "A"
+    sh label: '', script: '. ./script.sh && a'
   }
   stage("Function B")
   {
