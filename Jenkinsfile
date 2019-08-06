@@ -1,5 +1,6 @@
 node('master')
 {
+  sh label: '', script: '. ./script.sh'
   stage("Function A")
   {
     echo "A"
